@@ -2,46 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Projects | Your Name</title>
+    <title>Projects | Suryansh Varshney</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Projects</h1>
-        <p class="tagline">
-            Selected projects demonstrating my data analysis and machine learning work.
-        </p>
-        <a href="index.html" class="button">Back to Home</a>
-    </header>
+<header>
+    <h1>Projects</h1>
+    <p class="tagline">
+        Selected projects demonstrating my approach to data analysis, machine learning,
+        and business-focused problem solving.
+    </p>
+    <a href="index.html" class="button">Back to Home</a>
+</header>
 
-    <section>
-        <h2>E-commerce Profitability Analysis</h2>
-        <p><strong>Objective:</strong> Analyze factors affecting profit and build machine learning models to predict profitability.</p>
+<section>
+    <h2>E-commerce Profitability Analysis & Machine Learning</h2>
 
-        <p><strong>What I did:</strong></p>
-        <ul>
-            <li>Cleaned and explored real-world e-commerce transaction data</li>
-            <li>Identified loss-making patterns caused by aggressive discounting</li>
-            <li>Performed feature engineering and trained regression models</li>
-            <li>Evaluated Linear Regression, Decision Tree, and Random Forest models</li>
-        </ul>
+    <p>
+        <strong>Problem Statement:</strong><br>
+        In retail and e-commerce, high sales volume does not always translate into high profit.
+        This project analyzes transaction-level data to identify the key drivers of profitability
+        and evaluates machine learning models to understand and predict profit behavior.
+    </p>
 
-        <p><strong>Key Insights:</strong></p>
-        <ul>
-            <li>High discounts (>40%) consistently resulted in negative profit</li>
-            <li>Technology products generated the highest average profit</li>
-            <li>Sales volume alone did not guarantee profitability</li>
-        </ul>
+    <p>
+        <strong>Dataset:</strong><br>
+        Real-world e-commerce transaction data containing order details, product categories,
+        discount information, regional data, and profit metrics.
+    </p>
 
-        <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, Matplotlib</p>
+    <p>
+        <strong>Approach:</strong>
+    </p>
+    <ul>
+        <li>Performed data cleaning and preprocessing, including handling encoding issues and date features</li>
+        <li>Conducted exploratory data analysis to study sales, profit distribution, and discount impact</li>
+        <li>Identified loss-making transactions and analyzed their relationship with discounts and order size</li>
+        <li>Engineered business-driven features such as high-discount flags, shipping delay, and seasonality</li>
+        <li>Prepared data for modeling with proper encoding and train–test splitting</li>
+    </ul>
 
-        <p>
-            <a href="https://github.com/yourusername/your-repo-link" target="_blank">
-                View Project on GitHub
-            </a>
-        </p>
-    </section>
+    <p>
+        <strong>Machine Learning Models:</strong>
+    </p>
+    <ul>
+        <li>Linear Regression (baseline and interpretability)</li>
+        <li>Decision Tree Regressor (non-linear relationships)</li>
+        <li>Random Forest Regressor (ensemble model)</li>
+    </ul>
+
+    <p>
+        <strong>Evaluation Metrics:</strong><br>
+        RMSE, MAE, and R² were used to compare model performance and understand prediction limitations.
+    </p>
+
+    <p>
+        <strong>Key Insights:</strong>
+    </p>
+    <ul>
+        <li>High discounts (above ~40%) consistently resulted in negative profit</li>
+        <li>Sales volume alone did not guarantee profitability</li>
+        <li>Technology products generated the highest average profit</li>
+        <li>Furniture sub-categories such as tables contributed disproportionately to losses</li>
+    </ul>
+
+    <p>
+        <strong>Business Recommendations:</strong>
+    </p>
+    <ul>
+        <li>Limit aggressive discounting and apply discounts strategically</li>
+        <li>Focus marketing and inventory on high-margin product categories</li>
+        <li>Reassess pricing and sourcing strategies for consistently loss-making products</li>
+        <li>Use ML models as decision-support tools rather than automated profit predictors</li>
+    </ul>
+
+    <p>
+        <strong>Tools & Technologies:</strong><br>
+        Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Git, Jupyter Notebook
+    </p>
+
+    <p>
+        <strong>Outcome:</strong><br>
+        While profit proved difficult to predict precisely due to missing cost-related variables,
+        the analysis delivered strong business insights and highlighted the importance of data
+        quality and domain understanding over model complexity.
+    </p>
+
+    <p>
+        <a href="https://github.com/Suryansh55555" target="_blank">
+            View Project on GitHub
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>
+        <a href="https://github.com/Suryansh55555">GitHub</a> |
+        <a href="https://www.linkedin.com/">LinkedIn</a> |
+        <a href="mailto:yourmail@gmail.com">Email</a>
+    </p>
+</footer>
 
 </body>
 </html>
